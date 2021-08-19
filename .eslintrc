@@ -4,14 +4,15 @@
   "plugins": [
     "@typescript-eslint"
   ],
-  "extends": [
-    "eslint:recommended",
-    "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:@typescript-eslint/recommended"
-  ],
   "rules": {
     "no-console": "off",
     "global-require": "off",
     "import/no-dynamic-require": "off"
-  }
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ]
 }
