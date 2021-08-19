@@ -10,7 +10,7 @@
     "plugin:@typescript-eslint/recommended"
   ],
   "rules": {
-    "no-console": "error",
+    "no-console": "off",
     "global-require": "off",
     "import/no-dynamic-require": "off"
   }
