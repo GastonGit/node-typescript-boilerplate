@@ -1,7 +1,7 @@
 {
   "name": "node-typescript-boilerplate",
   "author": "GastonGit",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "app.js",
   "scripts": {
