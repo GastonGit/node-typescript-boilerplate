@@ -24,7 +24,7 @@ describe('Routes suite', () => {
                 .end((err, res) => {
                     expect(err).to.be.null;
                     expect(res).to.have.status(200);
-                    expect(res.body).to.equal('Success');
+                    expect(res.body).to.equal('test');
                     done();
                 });
         });
