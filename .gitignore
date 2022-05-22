@@ -129,3 +129,6 @@ client/build
 
 # Settings
 config.json
+
+# Build
+dist
