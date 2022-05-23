@@ -4,7 +4,7 @@
   "version": "1.0.13",
   "scripts": {
     "start": "set NODE_ENV=production&&ts-node -r dotenv/config src/app.ts",
-    "start:production": "set NODE_ENV=production&&ts-node -r dotenv/config dist/app.js",
+    "serve": "set NODE_ENV=production&&ts-node -r dotenv/config dist/app.js",
     "build": "set NODE_ENV=production&&tsc --noEmit false",
     "lint": "eslint . --ext .ts",
     "lint:fix": "eslint . --ext .ts --fix",
