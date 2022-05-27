@@ -121,14 +121,5 @@ typings/
 # WebStorm
 /.idea/
 
-# SQLite3
-sqlite3
-
-# Client production
-client/build
-
-# Settings
-config.json
-
 # Build
 dist
